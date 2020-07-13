@@ -15,6 +15,13 @@
   "browserslist": [
     "last 2 Chrome versions"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rish1508/fe-common-xhr.git"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
   "author": "rishabh",
   "license": "UNLICENSED",
   "dependencies": {
