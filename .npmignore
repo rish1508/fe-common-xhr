@@ -1,0 +1,12 @@
+**/.*
+*.iml
+coverage/
+node_modules/
+stories/
+src/
+rollup.*.js
+.storybook
+.babelrc
+.eslintrc
+yarn.lock
+scss

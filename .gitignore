@@ -1,0 +1,12 @@
+.idea/
+target/
+*.iml
+.DS_Store
+/*.log
+node_modules/
+/coverage/
+/lib/
+/dist
+*.tgz
+package-lock.json
+

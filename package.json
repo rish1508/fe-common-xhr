@@ -1,0 +1,58 @@
+{
+  "name": "@rish1508/fe-common-xhr",
+  "version": "1.0.0",
+  "description": "Frontend common library for all related to xhr",
+  "main": "lib/index.js",
+  "module": "dist/index.es.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "test-ci": "jest --testResultsProcessor=\"jest-junit\"",
+    "build": "rollup -c rollup.config.js",
+    "lint": "eslint src --ext .js,.jsx,.mjs,.ts,.tsx",
+    "pretty": "prettier --write \"**/*.js\""
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ],
+  "author": "rishabh",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@types/axios-cancel": "^0.2.0",
+    "@types/jest": "^25.1.1",
+    "@types/node": "^13.5.0",
+    "@types/react": "^16.9.19",
+    "@types/react-dom": "^16.9.5",
+    "axios": "^0.19.2",
+    "axios-cancel": "^0.2.2",
+    "axios-mock-adapter": "^1.18.1",
+    "keycloak-js": "^10.0.2",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@rish1508/eslint-config-rg-typescript": "^1.0.0",
+    "@types/uuid": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^2.18.0",
+    "@typescript-eslint/parser": "^2.18.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-compat": "^3.5.1",
+    "eslint-plugin-import": "^2.20.0",
+    "jest": "^25.1.0",
+    "jest-junit": "^10.0.0",
+    "prettier": "^1.19.1",
+    "rollup": "^1.30.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-typescript2": "^0.25.3",
+    "ts-jest": "^25.1.0",
+    "typescript": "^3.7.5"
+  }
+}
